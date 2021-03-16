@@ -1,5 +1,5 @@
 html{
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 *,*:before,*:after{
     box-sizing: inherit;
@@ -23,6 +23,7 @@ main{
 }
 
 .person{
+    display: flex;
 
 }
 .person__description{
@@ -35,12 +36,25 @@ main{
     margin: 0;
 }
 
+.person__link{
+    text-decoration: none;
+    color: #E20613;
+}
+
+.person__picture{
+    align-items: flex-start;
+    margin-right: 32px;
+    width: 148px;
+    height:148px;
+    border: white solid;
+}
 .person__position{
     font-weight: 18px;
     font-style: italic;
     margin: 0;
     color: #545454;
 }
+
 
 .special{
     font-weight: normal;
